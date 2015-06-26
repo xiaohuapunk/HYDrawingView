@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26482E81B3CF26F00DA6229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26482E71B3CF26F00DA6229 /* main.m */; };
+		F26482EB1B3CF26F00DA6229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26482EA1B3CF26F00DA6229 /* AppDelegate.m */; };
+		F26482EE1B3CF26F00DA6229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26482ED1B3CF26F00DA6229 /* ViewController.m */; };
+		F26482F11B3CF26F00DA6229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26482EF1B3CF26F00DA6229 /* Main.storyboard */; };
+		F26482F31B3CF26F00DA6229 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26482F21B3CF26F00DA6229 /* Images.xcassets */; };
+		F26482F61B3CF26F00DA6229 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26482F41B3CF26F00DA6229 /* LaunchScreen.xib */; };
+		F26483021B3CF26F00DA6229 /* HYDrawingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26483011B3CF26F00DA6229 /* HYDrawingViewTests.m */; };
+		F264830D1B3CF27F00DA6229 /* HYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F264830C1B3CF27F00DA6229 /* HYDrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26482FC1B3CF26F00DA6229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26482DA1B3CF26F00DA6229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26482E11B3CF26F00DA6229;
+			remoteInfo = HYDrawingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26482E21B3CF26F00DA6229 /* HYDrawingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYDrawingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26482E61B3CF26F00DA6229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26482E71B3CF26F00DA6229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26482E91B3CF26F00DA6229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26482EA1B3CF26F00DA6229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26482EC1B3CF26F00DA6229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26482ED1B3CF26F00DA6229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26482F01B3CF26F00DA6229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26482F21B3CF26F00DA6229 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F26482F51B3CF26F00DA6229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F26482FB1B3CF26F00DA6229 /* HYDrawingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYDrawingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26483001B3CF26F00DA6229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26483011B3CF26F00DA6229 /* HYDrawingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDrawingViewTests.m; sourceTree = "<group>"; };
+		F264830B1B3CF27F00DA6229 /* HYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDrawView.h; sourceTree = "<group>"; };
+		F264830C1B3CF27F00DA6229 /* HYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26482DF1B3CF26F00DA6229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26482F81B3CF26F00DA6229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26482D91B3CF26F00DA6229 = {
+			isa = PBXGroup;
+			children = (
+				F26482E41B3CF26F00DA6229 /* HYDrawingView */,
+				F26482FE1B3CF26F00DA6229 /* HYDrawingViewTests */,
+				F26482E31B3CF26F00DA6229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26482E31B3CF26F00DA6229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26482E21B3CF26F00DA6229 /* HYDrawingView.app */,
+				F26482FB1B3CF26F00DA6229 /* HYDrawingViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26482E41B3CF26F00DA6229 /* HYDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				F264830E1B3CF28300DA6229 /* DrawView */,
+				F26482E91B3CF26F00DA6229 /* AppDelegate.h */,
+				F26482EA1B3CF26F00DA6229 /* AppDelegate.m */,
+				F26482EC1B3CF26F00DA6229 /* ViewController.h */,
+				F26482ED1B3CF26F00DA6229 /* ViewController.m */,
+				F26482EF1B3CF26F00DA6229 /* Main.storyboard */,
+				F26482F21B3CF26F00DA6229 /* Images.xcassets */,
+				F26482F41B3CF26F00DA6229 /* LaunchScreen.xib */,
+				F26482E51B3CF26F00DA6229 /* Supporting Files */,
+			);
+			path = HYDrawingView;
+			sourceTree = "<group>";
+		};
+		F26482E51B3CF26F00DA6229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26482E61B3CF26F00DA6229 /* Info.plist */,
+				F26482E71B3CF26F00DA6229 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26482FE1B3CF26F00DA6229 /* HYDrawingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26483011B3CF26F00DA6229 /* HYDrawingViewTests.m */,
+				F26482FF1B3CF26F00DA6229 /* Supporting Files */,
+			);
+			path = HYDrawingViewTests;
+			sourceTree = "<group>";
+		};
+		F26482FF1B3CF26F00DA6229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26483001B3CF26F00DA6229 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F264830E1B3CF28300DA6229 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				F264830B1B3CF27F00DA6229 /* HYDrawView.h */,
+				F264830C1B3CF27F00DA6229 /* HYDrawView.m */,
+			);
+			name = DrawView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26482E11B3CF26F00DA6229 /* HYDrawingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26483051B3CF26F00DA6229 /* Build configuration list for PBXNativeTarget "HYDrawingView" */;
+			buildPhases = (
+				F26482DE1B3CF26F00DA6229 /* Sources */,
+				F26482DF1B3CF26F00DA6229 /* Frameworks */,
+				F26482E01B3CF26F00DA6229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYDrawingView;
+			productName = HYDrawingView;
+			productReference = F26482E21B3CF26F00DA6229 /* HYDrawingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26482FA1B3CF26F00DA6229 /* HYDrawingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26483081B3CF26F00DA6229 /* Build configuration list for PBXNativeTarget "HYDrawingViewTests" */;
+			buildPhases = (
+				F26482F71B3CF26F00DA6229 /* Sources */,
+				F26482F81B3CF26F00DA6229 /* Frameworks */,
+				F26482F91B3CF26F00DA6229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26482FD1B3CF26F00DA6229 /* PBXTargetDependency */,
+			);
+			name = HYDrawingViewTests;
+			productName = HYDrawingViewTests;
+			productReference = F26482FB1B3CF26F00DA6229 /* HYDrawingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26482DA1B3CF26F00DA6229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HY;
+				TargetAttributes = {
+					F26482E11B3CF26F00DA6229 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F26482FA1B3CF26F00DA6229 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F26482E11B3CF26F00DA6229;
+					};
+				};
+			};
+			buildConfigurationList = F26482DD1B3CF26F00DA6229 /* Build configuration list for PBXProject "HYDrawingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26482D91B3CF26F00DA6229;
+			productRefGroup = F26482E31B3CF26F00DA6229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26482E11B3CF26F00DA6229 /* HYDrawingView */,
+				F26482FA1B3CF26F00DA6229 /* HYDrawingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26482E01B3CF26F00DA6229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26482F11B3CF26F00DA6229 /* Main.storyboard in Resources */,
+				F26482F61B3CF26F00DA6229 /* LaunchScreen.xib in Resources */,
+				F26482F31B3CF26F00DA6229 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26482F91B3CF26F00DA6229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26482DE1B3CF26F00DA6229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26482EE1B3CF26F00DA6229 /* ViewController.m in Sources */,
+				F264830D1B3CF27F00DA6229 /* HYDrawView.m in Sources */,
+				F26482EB1B3CF26F00DA6229 /* AppDelegate.m in Sources */,
+				F26482E81B3CF26F00DA6229 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26482F71B3CF26F00DA6229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26483021B3CF26F00DA6229 /* HYDrawingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26482FD1B3CF26F00DA6229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26482E11B3CF26F00DA6229 /* HYDrawingView */;
+			targetProxy = F26482FC1B3CF26F00DA6229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26482EF1B3CF26F00DA6229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26482F01B3CF26F00DA6229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26482F41B3CF26F00DA6229 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26482F51B3CF26F00DA6229 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26483031B3CF26F00DA6229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26483041B3CF26F00DA6229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26483061B3CF26F00DA6229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYDrawingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26483071B3CF26F00DA6229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYDrawingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26483091B3CF26F00DA6229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYDrawingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDrawingView.app/HYDrawingView";
+			};
+			name = Debug;
+		};
+		F264830A1B3CF26F00DA6229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYDrawingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDrawingView.app/HYDrawingView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26482DD1B3CF26F00DA6229 /* Build configuration list for PBXProject "HYDrawingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26483031B3CF26F00DA6229 /* Debug */,
+				F26483041B3CF26F00DA6229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26483051B3CF26F00DA6229 /* Build configuration list for PBXNativeTarget "HYDrawingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26483061B3CF26F00DA6229 /* Debug */,
+				F26483071B3CF26F00DA6229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26483081B3CF26F00DA6229 /* Build configuration list for PBXNativeTarget "HYDrawingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26483091B3CF26F00DA6229 /* Debug */,
+				F264830A1B3CF26F00DA6229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26482DA1B3CF26F00DA6229 /* Project object */;
+}

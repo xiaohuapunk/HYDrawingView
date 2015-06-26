@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PtR-e3-YYF">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="f8I-fb-AQA"/>
+                                    <barButtonItem title="clear" id="lFK-1A-kPn">
+                                        <connections>
+                                            <action selector="clear:" destination="BYZ-38-t0r" id="hRU-AM-Dd4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="048-lr-3AB"/>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKh-uk-ty7" customClass="HYDrawView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AKh-uk-ty7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4U0-vK-vWN"/>
+                            <constraint firstAttribute="trailing" secondItem="PtR-e3-YYF" secondAttribute="trailing" id="7D4-KW-FOE"/>
+                            <constraint firstItem="PtR-e3-YYF" firstAttribute="top" secondItem="AKh-uk-ty7" secondAttribute="bottom" id="7W1-Bg-jbD"/>
+                            <constraint firstItem="PtR-e3-YYF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VWu-3l-EFD"/>
+                            <constraint firstAttribute="trailing" secondItem="AKh-uk-ty7" secondAttribute="trailing" id="azp-ni-Z7c"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PtR-e3-YYF" secondAttribute="bottom" id="fii-Ik-HeM"/>
+                            <constraint firstItem="AKh-uk-ty7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rZm-TU-Q7C"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="drawView" destination="AKh-uk-ty7" id="kfN-dZ-2wh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
